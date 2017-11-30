@@ -34,7 +34,7 @@ public class FlowField : MonoBehaviour {
 
 		// by the end of this:
 		// FlowField.flows[0,0] is the lower left flowfield vector
-		// FlowField.flows[63, 63] is the upper left flowfield vector
+		// FlowField.flows[63, 63] is the upper right flowfield vector
 	}
 	
 	public static Vector3 GetFlowAtPos(Vector3 pos) {
